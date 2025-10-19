@@ -1,0 +1,42 @@
+.red_block{
+    height: 150px;
+    width: 150px;
+    background-color: red;
+}
+
+.yellow_block{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+}
+
+.green_block{
+    height: 150px;
+    width: 150px;
+    background-color: green;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between;
+}
+
+@media (max-width: 470px){
+    /* .green_block{
+        display: none;
+    } */
+
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    /* .red_block{
+        height: 300px;
+        width: 300px;
+    } */
+
+
+}
